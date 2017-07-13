@@ -1,0 +1,88 @@
+body {
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHg9N5WExLNwX3c5kdA7HjpjQMr_xCIJrAs1gfK5vOc1w49K1);
+
+}
+
+
+h1{
+  font-family: 'Kurale', serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #d87979;
+}
+
+p{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: black;
+}
+
+#webpages{
+  font-family: 'Kurale';
+  font-size: 36px;
+  text-align: left;
+  color: #d87979;
+  text-align: left;
+}
+
+li {
+  font-size: 36px;
+  text-align: left;
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+}
+
+lh{
+  font-weight:bold;
+}
+
+ul{
+  font-family: 'Kurale';
+  font-size: 40px;
+  color: #d87979;
+  text-align: left;
+
+}
+ol{
+  font-family: 'Kurale';
+  font-size: 40px;
+  color: #d87979;
+}
+
+#dislikes{
+  font-size: 45px;
+}
+
+#likes{
+  padding: 50px;
+  font-size: 45px;
+
+}
+.half-width {
+  width: 50%;
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+
+}
+#dasher{
+  height: 40vh;
+  width: 65%;
+}
+#fam{
+  height: 40vh;
+  width: 1%;
+}
+#me{
+  height: 40vh;
+  width:65%;
+}
+
+.next{
+  width: 29%;
+  float: left;
+  box-sizing: border-box;
+
+}
