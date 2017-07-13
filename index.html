@@ -2,92 +2,51 @@
 <html>
   <head>
 
-    <!-- Set the style of the table -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Anton|Kurale" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 
-    <style>
-
-      body{
-        color: inherit;
-        font-family: 'Open Sans', sans-serif;
-      }
-
-      table, th, td{
-        border: 2px solid #01426a;
-        border-collapse: collapse;
-        padding: 15px;
-        text-align: center;
-        vertical-align: middle;
-        color: #01426a
-      }
-
-      th  {
-        background-color: #ece81a
-      }
-      tr:hover {background-color: #ece81a}
-
-    </style>
   </head>
 
   <body>
+    <h1>Amanda's Personal Portfolio</h1>
+    <p>Hi, my name is Amanda Ma! Here, you will be able to learn more about me!</p>
+    <p>I was born on February 23, 2000, so I am now 17 years old. I was born in Brooklyn, New York, but I grew up in Marlboro New Jersey. I havd two older siblings, a 21-year-old brother and 23-year-old sister. I also have an 8 year old dog named Dasher.</p>
+  <div id="likes" class="half-width">
+    <ol>
+      <lh>I like...</lh>
+      <li>playing piano</li>
+      <li>food</li>
+      <li>sleeping</li>
+      <li>dancing</li>
+    </ol>
+  </div>
 
-    <div>
-      <h1 style = "color:lightpink">Amanda Says Hi!</h1>
-      <h2 style = "color:lightblue">How are you?</h2>
-      <h3 style = "color:coral">I am a girl who codes!</h3>
-    </div>
+<div id="dislikes" class="half-width">
+  <ol>
+    <lh>I dislike...</lh>
+    <li>people who fidget</li>
+    <li>loud breathing</li>
+    <li>when people don't signal when switching lanes</li>
+  </ol>
+</div>
+  <ul>
+    <lh id="webpages"> Here are my favorite websites!</lh>
+    <li><a href="https://www.youtube.com/">Youtube</a>
+    <li><a href="https://www.instagram.com/">Instagram</a>
+    <li><a href="https://www.pennyanddash.com/">PennyandDash (my sister's blog!)</a>
+  </ul>
 
-    <!-- Table starts here-->
-    <div style ="overflow-x:auto;">
-      <table style="width:90%; margin:1em auto">
-
-        <!-- Define the first row of the table -->
-        <tr>
-          <th>Core4 Concept</th>
-          <th>Technical Definition</th>
-          <th>Real-Life Analogy</th>
-          <th>Python Example</th>
-          <th>Scratch Example</th>
-        </tr>
-
-        <!-- Fill in the row for Variables -->
-        <tr>
-        <td><b>Variables</b></td>
-          <td>  </td>
-          <td>  </td>
-          <td>  </td>
-          <td>  </td>
-        </tr>
-
-        <!-- Fill in the row for Loops -->
-        <tr>
-          <td><b>Loops</b></td>
-          <td>  </td>
-          <td>  </td>
-          <td>  </td>
-          <td>  </td>
-        </tr>
-
-        <!-- Fill in the row for Conditionals -->
-        <tr>
-          <td><b>Conditionals</b></td>
-          <td>  </td>
-          <td>  </td>
-          <td>  </td>
-          <td>  </td>
-        </tr>
-
-        <!-- Fill in the row for Functions -->
-        <tr>
-          <td><b>Functions</b></td>
-          <td>  </td>
-          <td>  </td>
-          <td>  </td>
-          <td>  </td>
-        </tr>
-
-      </table>
-    </div>
-
+<div class="next">
+    <img id="dasher" src="https://lh3.googleusercontent.com/1PJat9TVNdd3PydYagtAq-L4kPB5_AaHmziG2PQwaRr3qwiSoCaDS9snIre5v6Wwf8wxpIMbtbIj5pdr7aRxWGh_Voar2nx-4jLXr9KZ0J7Hswscm8klIZvMiSq9nhY2Zwq98EB5i3sMRCXoesx9k4oFxBNn7_EcEPkkx55-D4_qqVqZ3noPsNFMaSLwyRkxETr_wnXNBNrG7l4eAp6yGTDyZWfty34gqVLTfm4EgybBvLOOFJcEzpeMXYdGD8zM6pjn4JxC4Ddnhy_In32MXe74avxjJ_CZ0HMVbcnaxMu0FOLUBb_GeFVU8krNUCgrzm0FziZU7C4eAoXP3HVLF-VWNKnl13yoeBksZ4ZLuM34Bso5rdWdd6Qoqm4SXqSkUudilbxSln_knvagxjdgLCslbsJoYUQiG4supYcjUcUnVZK85A1kyGDaaxQUnKEkHBAIFFJQsbRu-HicyEo_roP1YtPVX1KYOFHloeLD6Q_tff7AVkSoeBRfDOK0PtFUg9Cqt4JkHSKMjOv8KSr8QbKmYWKw4EjXy0ukEAZ-M9tcd7yUnlHCmfbiP_uqh6PZsyJJBbLWsuKu2w6qu9DHyhvp0Ep80uTuLRSzVK0MwTOvbvUlf7r6=w1029-h1284-no" />
+</div>
+<div class="next">
+  <img id="me"
+  src="https://lh3.googleusercontent.com/1z6c4kDg80YMKzuM8qIVOKhletY75QZQq4DZn-RztvgQXI0ayJiQTywXbqD67yeCA-VUf4PZ3kQkPz7DIYDdUrj9y6TkXzr2DXtN11OaZrgH7xkS_eYqy0GlT4QIJKfrksOrSyLyDO0LyXU3PJGFr88wirvaS8LgnMDMVraZEsHUQJNpbUPWVIczVBYafL4AwUCgFJb1SA32VOTOSKPJzqwKrHbDzYXznhKImGDe_VpCWc53al29pDmhizj4167aKAC22LkMleAKWQ57OP5iKe6wixAPME97WGaZbP-i-l-8WynGPtYlwdB9QW0s2O-wfaJkXzwvO3Z5xfTwxeHExCpg9z12ae5fIjssGqZu4UmkgSnbUYr3z3l3y-1mGYC987eLU0IjCPkT0t4Jb4n_0jqKf5aVTBzsLAdM3qmkE2gX9WuPJPcxwcYHF80Zt-wYOgUgTQaJ2LR79ohO7Q5U8XpLKAa50x-vM9em1ZENN6W84nDelkomSQAtKOAeVD___15By78T8z6V4UlK1Dhp5FatLNFxwn0Ny2xWqzPbcktDqmlvLAupa-zwvEXSKhbGPSkqkLYpJbv0vZ8HM9B2Ol1LJoThPil6ZcemWBpRykVlIABGnYPs1_pH=w963-h1283-no" />
+</div>
+<div class="next">
+  <img id="fam" src="https://lh3.googleusercontent.com/WMB0U0HXlJmGOYU5gHYXxIqmYLCK-3RBER9ZZbtn4T5mVLpeeiMh8qlO3ruKtmD39-9-wm_CgXodq6GONih_QhEONAb_cTpk7WbP7pyArhodU1ecjSfS5GGT2Ms4KSQY2XBStFcY2Tww4FpDGqGtXeOk7sxQyKq0fPIgazXUqUEU0dk97FsZ2o9zSg_ZCKAFEz8syGhtPs6fFpSPscNQ4jOvEDKQ06lLP6ddQWeb2zB5XdI-GD9k1nu_DPpGTdWdLrMp7eFdW7_zUPOd4RgXtjMk8dPjTn-bD8ck7RFfJe-9b5_9xSKWZLTldiaRI8tWK5gyMHlgpw6CmmakAdJY5iZ5HCKHXRTylOdXwIQt160xRQ4IYFBunSvpD5Jm6rJhujcqQ4_f8Z_tiKPfPYx-lUZzuLt3oD4in3oTtOAoJm_6VU6dXwctUM-RDMdLRaljka4JxnonAohN-PL0QL3nTuvy2EiEHKn7W1pCG5p1K-6xY-s5LZkBNIUmJD0LgbwA8pw0eSB02_v4-yMKWagEmC5Wn_JW5jP-9YEMiPnX1MxqCKffaFTIf4-g3PNWWUjNZBoSJCmuUn7gHBaq5-uxe62tNzNqWaGYHSFX0PyuMaRhWKOJDdkOyKec=w2160-h1217-no" />
+</div>
   </body>
 </html>
