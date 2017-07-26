@@ -1,5 +1,5 @@
 body {
-  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHg9N5WExLNwX3c5kdA7HjpjQMr_xCIJrAs1gfK5vOc1w49K1);
+  background-image:url(http://media.tumblr.com/tumblr_m15d6mXheB1qe92a9.jpg);
 
 }
 
@@ -10,6 +10,10 @@ h1{
   font-weight: bold;
   text-align: center;
   color: #d87979;
+}
+
+h1:hover{
+  transform: rotateX(360);
 }
 
 p{
@@ -53,13 +57,15 @@ ol{
 
 #dislikes{
   font-size: 45px;
+  padding-right: 250px;
 }
 
 #likes{
-  padding: 50px;
+  padding-left: 250px;
   font-size: 45px;
 
 }
+
 .half-width {
   width: 50%;
   float: left;
@@ -69,22 +75,27 @@ ol{
 }
 #dasher{
   height: 40vh;
-  width: 65%;
+  width: 80%;
 }
 #fam{
-  width: 96%;
+  width: 105%;
   height: 40vh;
 }
 #me{
   height: 40vh;
-  width:65%;
+  width:80%;
 }
 
 .next{
   width: 32%;
   float: left;
   box-sizing: border-box;
+  padding-left: 75px;
 
+}
+
+.scratch{
+ text-align:center;
 }
 
 h2{
@@ -93,11 +104,43 @@ h2{
   padding-top: 470px;
   color: #d87979;
   float: none;
+  text-align: center;
 }
 
 h3{
+  text-align: center;
   font-size: 36px;
   font-family: 'Kurale';
   padding-top: 10px;
   color: #d87979;
+}
+
+#mtc{
+  width: 30%;
+  height: 40vh;
+  float: left;
+}
+
+#firstpic{
+  width: 30%;
+  height: 40vh;
+  float: left;
+}
+
+#linkedin{
+  width: 30%;
+  height: 40vh;
+  float:right;
+}
+
+#bowling{
+  width: 30%;
+  height: 40vh;
+  float: left;
+}
+
+.gwc_pics{
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
 }
