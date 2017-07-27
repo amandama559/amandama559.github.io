@@ -1,8 +1,17 @@
 body {
   background-image:url(http://media.tumblr.com/tumblr_m15d6mXheB1qe92a9.jpg);
-
 }
 
+h4{
+  font-size: 20px;
+  color: #d87979;
+}
+
+.top{
+  float: left;
+  width: 14%;
+  padding-left: 80px;
+}
 
 h1{
   font-family: 'Kurale', serif;
@@ -13,9 +22,16 @@ h1{
 }
 
 h1:hover{
-  transform: rotateX(360);
+  transform: rotateX(360deg);
+  color: #a3bef6;
 }
 
+h4:hover{
+  color: #a3bef6;
+}
+#WhoamI{
+  float: left;
+}
 p{
   font-family: 'Fjalla One', sans-serif;
   font-size: 36px;
@@ -23,12 +39,13 @@ p{
   color: black;
 }
 
-#webpages{
+#websites{
   font-family: 'Kurale';
   font-size: 36px;
-  text-align: left;
   color: #d87979;
   text-align: left;
+  float: left;
+  width: 100%;
 }
 
 li {
@@ -63,7 +80,6 @@ ol{
 #likes{
   padding-left: 250px;
   font-size: 45px;
-
 }
 
 .half-width {
@@ -74,34 +90,49 @@ ol{
 
 }
 #dasher{
-  height: 40vh;
-  width: 80%;
+  height: 30vh;
+  width: 20vh;
+  padding-left: 35px;
 }
 #fam{
-  width: 105%;
-  height: 40vh;
+  width: 35vh;
+  height: 30vh;
+  padding-left: 30px;
 }
 #me{
-  height: 40vh;
-  width:80%;
+  height: 30vh;
+  width:25vh;
+  padding-left: 20px;
+}
+#beach{
+  height: 30vh;
+  width: 20vh;
+  padding-left: 55px;
+}
+#impact{
+  height: 30vh;
+  width:30vh;
+}
+#somefam{
+  height: 30vh;
+  width: 26vh;
+  padding-left: 20px;
 }
 
 .next{
-  width: 32%;
+  width: 15%;
   float: left;
   box-sizing: border-box;
-  padding-left: 75px;
-
 }
 
 .scratch{
  text-align:center;
 }
 
+
 h2{
   font-size: 36px;
   font-family: 'Kurale';
-  padding-top: 470px;
   color: #d87979;
   float: none;
   text-align: center;
@@ -111,32 +142,37 @@ h3{
   text-align: center;
   font-size: 36px;
   font-family: 'Kurale';
-  padding-top: 10px;
+  padding-top: 5px;
   color: #d87979;
 }
 
 #mtc{
-  width: 30%;
+  width: 30vh;
   height: 40vh;
   float: left;
 }
 
 #firstpic{
-  width: 30%;
+  width: 30vh;
   height: 40vh;
-  float: left;
+
 }
 
 #linkedin{
-  width: 30%;
+  width: 30vh;
   height: 40vh;
-  float:right;
+
+}
+
+#heart{
+  width: 30vh;
+  height: 40vh;
+
 }
 
 #bowling{
-  width: 30%;
+  width: 30vh;
   height: 40vh;
-  float: left;
 }
 
 .gwc_pics{
