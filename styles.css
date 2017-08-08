@@ -106,24 +106,44 @@ p{
   padding-top: 34px;
 }
 #youtube{
-  padding-top: 7px;
-  height: 13vh;
-  width: 10.5vh;
+ padding-top: 7px;
+ height: 13vh;
+ width: 10.5vh;
+}
+#youtube:hover{
+ opacity: .7;
+ height: 14vh;
+ width: 11.5vh;
 }
 #instagram{
-  height: 15vh;
-  width: 15vh;
+ height: 15vh;
+ width: 15vh;
+}
+#instagram:hover{
+ opacity: .7;
+ height: 16vh;
+ width: 16vh;
 }
 #snapchat{
-  padding-top: 7px;
-  height: 10.4vh;
-  width: 10.4vh;
+ padding-top: 7px;
+ height: 10.4vh;
+ width: 10.4vh;
+}
+#snapchat:hover{
+ opacity: .7;
+ height :11.4vh;
+ width: 11.4vh;
 }
 #pennyanddash{
-  padding-top: 28px;
-  padding-right: 7px;
-  height: 10.3vh;
-  width: 10.3vh;
+ padding-top: 28px;
+ padding-right: 7px;
+ height: 10vh;
+ width: 10vh;
+}
+#pennyanddash:hover{
+ opacity: .7;
+ height: 11vh;
+ width: 11vh;
 }
 
 
